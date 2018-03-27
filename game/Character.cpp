@@ -10,6 +10,13 @@ Character::Character(string name, int health, int attPower, int defPower, int sp
 	int getDefPower(){return defPower;}
 	int getSpeed(){return speed;}
 	
+	
+	string getName(){return this.name;}
+	int getHealth(){return this.health;}
+	int getAttPower(){return this.attPower;}
+	int getDefPower(){return this.defPower;}
+	int getSpeed(){return this.speed;}
+	
 	void setName(string name){this.name = name;}
 	void setHealth(int health){this.health = health;}
 	void setAttPower(int attPower){this.attPower = attPower;}

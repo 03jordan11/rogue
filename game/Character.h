@@ -4,10 +4,26 @@
 #include <string.h>
 
 class Character{
-	private:
+private:
+	string name;
+	int health, attPower, defPower, speed;
 	
-	public:
+public:
+	string getName();
+	int getHealth();
+	int getAttPower();
+	int getDefPower();
+	int getSpeed();
+
+	void setName(string name);
+	void setHealth(int health);
+	void setAttPower(int attPower);
+	void setDefPower(int defPower);
+	void setSpeed(int speed);
 	
-	protected:
+	int takeDamage(int damage);				//RETURNS HEALTH
+	
+protected:
+	
 	
 }
