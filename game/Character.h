@@ -14,11 +14,11 @@ private:
 public:
 	Character(string name, int health, int attPower, int defPower, int speed);
 	
-	string getName(){return name;}
-	int getHealth(){return health;}
-	int getAttPower(){return attPower;}
-	int getDefPower(){return defPower;}
-	int getSpeed(){return speed;}
+	string getName();
+	int getHealth();
+	int getAttPower();
+	int getDefPower();
+	int getSpeed();
 
 	void setName(string name);
 	void setHealth(int health);
