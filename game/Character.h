@@ -1,7 +1,10 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 #include <math.h>
 #include <string.h>
+#include <iostream>
+
+using namespace std;
 
 class Character{
 private:
@@ -9,11 +12,13 @@ private:
 	int health, attPower, defPower, speed;
 	
 public:
-	string getName();
-	int getHealth();
-	int getAttPower();
-	int getDefPower();
-	int getSpeed();
+	Character(string name, int health, int attPower, int defPower, int speed);
+	
+	string getName(){return name;}
+	int getHealth(){return health;}
+	int getAttPower(){return attPower;}
+	int getDefPower(){return defPower;}
+	int getSpeed(){return speed;}
 
 	void setName(string name);
 	void setHealth(int health);
@@ -26,4 +31,4 @@ public:
 protected:
 	
 	
-}
+};
