@@ -1,6 +1,6 @@
-#include "character.h"
+#include "Character.h"
 
-character::character(string name, int health, int attPower, int defPower, int speed){
+Character::Character(string name, int health, int attPower, int defPower, int speed){
 	this.name = name; this.health = health; this.attPower = attPower; this.defPower = defPower; this.speed = speed;
 }
 
